@@ -1,0 +1,189 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+body,
+html {
+	height: 100%;
+	line-height: 1;
+}
+
+/* ================================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@font-face {
+	font-family: "BebasNeuePro";
+	src: url("../fonts/BebasNeuePro-Bold.woff") format("woff"), url("../fonts/BebasNeuePro-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "BebasNeuePro";
+	src: url("../fonts/BebasNeuePro-ExpandedExtraBold.woff") format("woff"), url("../fonts/BebasNeuePro-ExpandedExtraBold.woff2") format("woff2");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "BebasNeuePro";
+	src: url("../fonts/BebasNeuePro-Regular.woff") format("woff"), url("../fonts/BebasNeuePro-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "BebasNeuePro", sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+}
+.items {
+	font-family: "lato";
+	font-style: italic;
+	font-weight: 700;
+	font-size: 25px;
+	color: coral;
+}
+.headline {
+	font-style: normal;
+	font-size: 50px;
+	font-weight: 800;
+	line-height: 2.5;
+	text-align: center;
+	text-shadow: 10px 10px 30px #000;
+	color: #424551;
+}
+.link {
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: 400;
+	color: blue;
+}
+.desc {
+	font-style: normal;
+	font-weight: 400;
+	text-align: right;
+	color: coral;
+}
+.item__list {
+	font-style: oblique;
+	font-weight: 900;
+	text-decoration: line-through;
+	text-align: justify;
+	color: cornflowerblue;
+}
+.item__list2 {
+	font-style: oblique;
+	font-weight: 900;
+	text-shadow: 10px 10px 10px #000;
+	text-align: justify;
+	color: grey;
+}
+.block1 {
+	font-style: normal;
+	font-weight: 400;
+	text-transform: capitalize;
+	color:olive;
+}
+h2 {
+	font-size: 45px;
+	text-align: center;
+	font-weight: 900;
+	line-height: 2.5;
+	color: #424551;
+}
+.block2 {
+	font-family: "lato";
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: darkgrey;
+}
+#section2 {
+	color: hotpink;
+}
+p span {
+	font-style: normal;
+	text-transform: lowercase;
+	font-weight: 700;
+	color: greenyellow;
+}
+ul {
+	font-style: oblique;
+	text-decoration: overline;
+	text-indent: 25px; 
+	letter-spacing: 10px; 
+	word-spacing: 20px; 
+	white-space: nowrap; 
+}
+li.span {
+	color: green;
+}
+ .block3,.block4,.block5 {
+	font-style: normal;
+	font-weight: 400;
+	text-align: right;
+}
+.block3 {
+	color: indigo;
+}
+.block4 {
+	color: maroon;
+}
+.block5 {
+	color: sienna;
+}
+p.span {
+	font-family: "lato";
+	text-align: center;
+	color: steelblue;
+}
+.list ~ li {
+	font-style: normal;
+	font-size: 30px;
+	color: red;
+}
+.block6 {
+	font-style: italic;
+	text-decoration: line-through;
+	color: tomato;
+}
+.block7 {
+font-family: "lato";
+text-align: center;
+color: yellowgreen;
+}
+.footer span {
+	font-size: 30px;
+	font-weight: 900;
+	color: darkorange;
+}
